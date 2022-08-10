@@ -1,0 +1,188 @@
+body {
+    color:#40514E;
+    background-color: #F9F5EB;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    }
+
+hr {
+
+        border-style: none;
+        border-top-style: dotted;
+        border-color: #EBD8C3;
+        border-width: 9px;
+        opacity: 0.8;
+        width: 5%;
+    }
+
+h1 {
+    color: #FCF8E8;
+    font-size: 370%; /**16px 100% 1em**/
+    margin: 15px auto 0 auto; /** four lines***/
+    line-height: 2;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+h2 {
+    color: #827397;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+    padding: 10px;
+}
+
+h3 {
+    color: #363062;
+}
+
+
+a{
+    color:#F5E8C7;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color:#ECCCB2;
+
+}
+
+.copyright{
+    font-size: 0.65rem;
+    padding: 20px 0;
+}
+
+
+
+.profile p {
+    width: 30%;
+    margin: 50px auto ;
+    line-height: 2;
+}
+.p {
+        line-height: 2;
+}
+
+
+/********************************************************************/
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/**********************************************************************/
+
+.programer {
+    color: #FCF8E8;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+/***********************/
+.top{
+
+    background-color: #748DA6;
+    position:relative;
+    padding-top: 150px;
+
+
+}
+
+.contact-me {
+    margin: 50px auto 50px auto;
+}
+
+
+
+.btn {
+  background: #ECCCB2;
+  background-image: linear-gradient(top, #ECCCB2, #F5E8C7);
+  background-image: linear-gradient(to bottom, #ECCCB2, #F5E8C7);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Merriweather;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FCF8E8;
+  background-image: linear-gradient(top, #FCF8E8, #748DA6);
+  background-image: linear-gradient(to bottom, #FCF8E8, #748DA6);
+  text-decoration: none;
+}
+
+.middle-container{
+    margin: 70px auto;
+
+}
+.bottom-container{
+    padding: 50px 0 20px;
+    background-color: #B2C8DF;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+
+/********parents : top container *********/
+.bottom-cloud {
+
+    position: absolute;
+    left: 300px;
+    bottom:300px;
+}
+
+.top-cloud{
+
+    position:absolute;
+    right:300px;
+    top: 100px;
+}
+
+.koala:hover{
+    background-color: #607EAA;
+    opacity: 0.8;
+}
+
+.koala{
+    background-color: #CFD2CF;
+}
+
+.circular {
+    border-radius: 100%;
+}
+.css {
+     width: 25%;
+     float: left;
+     margin-right: 30px;
+}
+
+.python {
+     width: 25%;
+     float: right;
+     margin-left: 30px;
+}
+
+.finance {
+     width: 25%;
+     float: right;
+     margin-left: 30px;
+
+}
+
+/** class name  { clear: left} anti-float**/
